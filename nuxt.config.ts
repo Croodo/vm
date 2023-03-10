@@ -37,10 +37,10 @@ export default defineNuxtConfig({
 
   },
       
-  //    nitro: {
-  //     plugins: ["~/server/api/db/index.ts"],
+     nitro: {
+      plugins: ["~/server/api/db/index.ts"],
  
-  // },
+  },
        schemaOrg: {
          host: 'https://www.vidmatevideos.in',
           tagPosition: 'head', 

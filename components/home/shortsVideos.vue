@@ -18,15 +18,12 @@ const { pending, data: list } = useLazyFetch(uri);
             class="w-52 h-80 max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
           >
             <NuxtLink :to="`/shorts/${data.seourl}`"
-              ><nuxt-img
+              ><img
                 width="400"
                 height="720"
-                format="webp"
-                quality="5"
                 preload
-                :src="`/thumbnail/vi/${data.videoId}/maxres2.jpg`"
+                :src="`https://www.vidmatevideos.in/_ipx/f_webp,q_5,s_400x720/thumbnail/vi/${data.videoId}/maxres2.jpg`"
                 :alt="data.title + 'Shorts Video'"
-                :modifiers="{ fit: 'cover' }"
                 class="md:rounded-lg overflow-hidden w-auto md:scale-100 rounded-xl"
             /></NuxtLink>
           </div>
