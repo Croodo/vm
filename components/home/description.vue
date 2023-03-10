@@ -35,14 +35,14 @@
           <div
             class="aspect-square lg:h-[420px] lg:w-[420px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500 overflow-hidden flex justify-center items-start"
           >
-            <nuxt-img
+            <!-- <nuxt-img
               src="/images/screen/vidmate-unlimited-download.jpg"
               alt="Unlimited Free using Vidmate"
               format="webp"
               quality="50"
               preload
               class="scale-[75%] rounded-2xl -skew-x-12 mr-24"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -68,14 +68,14 @@
         <div
           class="aspect-square lg:h-[420px] lg:w-[420px] rounded-full bg-gradient-to-r from-amber-500 to-amber-300 overflow-hidden flex justify-center items-start"
         >
-          <nuxt-img
+          <!-- <nuxt-img
             src="/images/screen/vidmate-simple-ui-easy-to-use.jpg"
             alt="Vidmate is Easy to use"
             format="webp"
             quality="50"
             preload
             class="scale-[75%] rounded-2xl skew-x-12 ml-24"
-          />
+          /> -->
         </div>
       </div>
     </div>
@@ -97,14 +97,14 @@
           <div
             class="aspect-square lg:h-[420px] lg:w-[420px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500 overflow-hidden flex justify-center items-start"
           >
-            <nuxt-img
+            <!-- <nuxt-img
               src="/images/screen/vidmate-fast-downloading.jpg"
               alt="Vidmate has Fast Downloading Speed"
               format="webp"
               quality="50"
               preload
               class="scale-[75%] rounded-2xl -skew-x-12 mr-24"
-            />
+            /> -->
           </div>
         </div>
       </div>

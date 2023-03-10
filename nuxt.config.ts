@@ -24,17 +24,9 @@ export default defineNuxtConfig({
       'composables/**'
     ]
   },
-  modules: ['nuxt-icon', 'nuxt-schema-org', 'nuxt-unhead', '@nuxt/image-edge', '@nuxt/content',],
+  modules: ['nuxt-icon', 'nuxt-schema-org', 'nuxt-unhead',  '@nuxt/content',],
   
-  image: {
-       provider: 'ipx',
-      domains: ['i.ytimg.com', 'yt3.ggpht.com'],
-      alias: {
-        thumbnail: 'https://i.ytimg.com',
-        authorpic: 'https://yt3.ggpht.com'
-    }
-  },
- 
+
   //      delayHydration: {
   //    mode: 'init',
   //   // enables nuxt-delay-hydration in dev mode for testing  

@@ -18,17 +18,11 @@ const path = route.fullPath;
         <NuxtLink
           :to="`/hi${path}`"
           title="विडमेट"
-          class="
-            bg-zinc-100
-            rounded-md
-            px-2
-            py-1
-            hover:bg-zinc-900 hover:text-zinc-100
-          "
+          class="bg-zinc-100 rounded-md px-2 py-1 hover:bg-zinc-900 hover:text-zinc-100"
           >Hindi</NuxtLink
         >
         <NuxtLink to="/" title="VidMate"
-          ><nuxt-img
+          ><img
             src="/images/vidmate-new-icon.png"
             alt="VidMate"
             class="w-8 h-8"

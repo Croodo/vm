@@ -50,7 +50,7 @@ useHead({
         </div>
       </div>
     </div>
-    <Shorts title="Short Videos" />
+    <!-- <Shorts title="Short Videos" /> -->
     <Description />
     <Faq />
   </main>
