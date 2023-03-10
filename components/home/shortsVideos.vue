@@ -1,5 +1,5 @@
 <script setup>
-const uri = "https://www.vidmatevideos.in/api/yt/shorts/home";
+const uri = "/api/yt/shorts/home";
 const { pending, data: list } = useLazyFetch(uri);
 </script>
 <template>
