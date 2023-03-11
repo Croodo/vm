@@ -24,9 +24,17 @@ export default defineNuxtConfig({
       'composables/**'
     ]
   },
-  modules: ['nuxt-icon', 'nuxt-schema-org', 'nuxt-unhead',  '@nuxt/content',],
+  modules: ['nuxt-icon', 'nuxt-schema-org', 'nuxt-unhead', '@nuxt/image-edge', '@nuxt/content',],
   
-
+  image: {
+       provider: 'ipx',
+      domains: ['i.ytimg.com', 'yt3.ggpht.com'],
+      alias: {
+        thumbnail: 'https://i.ytimg.com',
+        authorpic: 'https://yt3.ggpht.com'
+    }
+  },
+ 
   //      delayHydration: {
   //    mode: 'init',
   //   // enables nuxt-delay-hydration in dev mode for testing  
@@ -37,10 +45,10 @@ export default defineNuxtConfig({
 
   },
       
-     nitro: {
-      plugins: ["~/server/api/db/index.ts"],
+  //    nitro: {
+  //     plugins: ["~/server/api/db/index.ts"],
  
-  },
+  // },
        schemaOrg: {
          host: 'https://www.vidmatevideos.in',
           tagPosition: 'head', 
@@ -51,7 +59,6 @@ export default defineNuxtConfig({
     lang: "en",
      },
       meta: [
-         { name: "google-site-verification", content: "Q2Uc7nu2l1JcQy1NOugeew30pIu7ylrWY9oBBvhIMS0" },
  { name: "viewport", content: "width=device-width, initial-scale=1.0, viewport-fit=cover"}
 ], link: [
        { rel: "apple-touch-icon", sizes: "180x180", href: "/images/ic/apple-touch-icon.png" },
