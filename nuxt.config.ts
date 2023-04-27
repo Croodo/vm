@@ -28,8 +28,9 @@ export default defineNuxtConfig({
   
   image: {
        provider: 'ipx',
-      domains: ['i.ytimg.com', 'yt3.ggpht.com'],
-      alias: {
+      domains: ['i.ytimg.com', 'yt3.ggpht.com', 'images.appdodo.com'],
+    alias: {
+        appdodo: 'https://images.appdodo.com',
         thumbnail: 'https://i.ytimg.com',
         authorpic: 'https://yt3.ggpht.com'
     }
